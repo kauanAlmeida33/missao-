@@ -6,43 +6,43 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+        enunciado: "Qual é a principal função do sistema aerodinâmico em um carro de Fórmula 1?",
         alternativas: [
             {
-                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
-                afirmacao: "afirmacao1"
+                texto: "O sistema aerodinâmico ajuda a reduzir o arrasto, permitindo que o carro atinja maiores velocidades retas.",
+                afirmacao: "O design aerodinâmico de um carro de Fórmula 1 é crucial para reduzir a resistência do ar, o que contribui para alcançar velocidades mais altas em retas."
             },
             {
-                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
-                afirmacao: "afirmacao2"
+                texto: "O sistema aerodinâmico melhora a aderência ao solo, aumentando a estabilidade em curvas e durante frenagens.",
+                afirmacao: "O fluxo de ar controlado pelo design aerodinâmico dos carros de Fórmula 1 gera força descendente, o que melhora a aderência dos pneus ao asfalto e aumenta a estabilidade nas curvas."
             }
            
         ]
     },
     {
-        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+        enunciado: "Qual tipo de motor é utilizado na Fórmula 1 atualmente?",
         alternativas: [
             {
-                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
-                afirmacao: "afirmacao3"
+                texto: "Os carros de Fórmula 1 usam motores de combustão interna tradicionais, sem componentes híbridos.",
+                afirmacao: "A Fórmula 1 não usa apenas motores de combustão interna tradicionais; os carros atualmente são equipados com motores híbridos que combinam unidades de potência a gasolina com sistemas de recuperação de energia."
             },
             {
-                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
-                afirmacao: "afirmacao4"
+                texto: "Os carros de Fórmula 1 utilizam motores híbridos que combinam um motor a combustão interna com um sistema elétrico de recuperação de energia.",
+                afirmacao: " Os motores híbridos na Fórmula 1 combinam a tecnologia de combustão interna com sistemas elétricos para melhorar a eficiência de combustível e a performance geral dos carros."
             }
            
         ]
     },
     {
-        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        enunciado: "Qual é a importância do sistema de freios em um carro de Fórmula 1?",
         alternativas: [
             {
-                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
-                afirmacao:"afirmacao5"
+                texto: "O sistema de freios é menos importante, já que a maioria das frenagens é feita por sistemas de recuperação de energia.",
+                afirmacao:"O sistema de freios em um carro de Fórmula 1 é fundamental, pois ele deve ser capaz de suportar forças extremas e temperaturas elevadas durante as frenagens intensas, complementando os sistemas de recuperação de energia."
             },
             {
-                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
-                afirmacao:"afirmacao6"
+                texto: "O sistema de freios é crucial e projetado para suportar altas temperaturas e forças extremas durante as corridas.",
+                afirmacao:"Devido às altas velocidades e às exigências das pistas, os freios dos carros de Fórmula 1 são projetados para resistir a temperaturas extremamente altas e forças intensas, garantindo uma frenagem eficaz."
             }
         ]
     }
